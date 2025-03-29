@@ -18,6 +18,12 @@ A proposta é aplicar de forma prática os 4 pilares da Orientação a Objetos:
 
 Além disso, foram incorporados conceitos de *Design Patterns* como *Strategy* e *Repository Pattern*, bem como práticas modernas de containerização com Docker.
 
+## 🗂️ Modelagem do Banco de Dados
+
+Abaixo, a modelagem atual do banco de dados utilizada no projeto:
+
+![Modelagem do banco de dados](uniesquina_db.png)
+
 ## 💻 Tecnologias Utilizadas
 
 ### Backend
