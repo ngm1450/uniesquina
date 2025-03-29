@@ -27,7 +27,6 @@ services:
     depends_on:
       - db
 
-
   backend:
     build:
       context: ./uniesquina-backend
