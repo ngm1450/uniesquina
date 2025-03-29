@@ -1,0 +1,26 @@
+server:
+  port: 8080
+
+spring:
+  server:
+    servlet:
+      encoding:
+        charset: UTF-8
+        enabled: true
+        force: true
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/uniesquina_db
+    username: uniesquina
+    password: uniesquina123
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+jwt:
+  secret: MinhaChaveSuperSecretaParaJWT123
+  expiration: 86400000
