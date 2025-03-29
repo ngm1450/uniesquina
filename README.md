@@ -4,7 +4,9 @@ Projeto final da disciplina **INF0257 - Introdução à Programação**, desenvo
 
 ## 🎥 Apresentação
 
-[![Assista no YouTube](https://img.shields.io/badge/YouTube-Apresentação-red?logo=youtube)](https://www.youtube.com/watch?v=_HPfYZQFWcE)
+<a href="https://www.youtube.com/watch?v=_HPfYZQFWcE" target="_blank">
+  <img src="https://img.shields.io/badge/YouTube-Apresentação-red?logo=youtube" alt="Assista no YouTube">
+</a>
 
 ## 🧠 Objetivos do Projeto
 
