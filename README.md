@@ -16,7 +16,7 @@ A proposta é aplicar de forma prática os 4 pilares da Orientação a Objetos:
 - Herança
 - Polimorfismo
 
-Além disso, foram incorporados conceitos de **Design Patterns** como *Strategy* e *Repository Pattern*, bem como práticas modernas de **containerização** com **Docker**.
+Além disso, foram incorporados conceitos de *Design Patterns* como *Strategy* e *Repository Pattern*, bem como práticas modernas de containerização com Docker.
 
 ## 💻 Tecnologias Utilizadas
 
