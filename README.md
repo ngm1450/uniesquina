@@ -18,11 +18,6 @@ A proposta é aplicar de forma prática os **4 pilares da Orientação a Objetos
 
 Além disso, foram incorporados conceitos de **Design Patterns** como *Strategy* e *Repository Pattern*, bem como práticas modernas de **containerização** com **Docker**.
 
----
-
-
----
-
 ## 💻 Tecnologias Utilizadas
 
 ### Backend
@@ -42,8 +37,6 @@ Além disso, foram incorporados conceitos de **Design Patterns** como *Strategy*
 - **Docker**
 - **Volumes persistentes (PostgreSQL)**
 - **Build e deploy multi-stage (frontend)**
-
----
 
 ## 🚀 Como Executar Localmente
 
