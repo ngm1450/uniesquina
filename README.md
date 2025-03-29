@@ -2,6 +2,10 @@
 
 Projeto final da disciplina **INF0257 - Introdução à Programação**, desenvolvido durante o programa de Residência em TI do TJGO/UFG com o objetivo de consolidar conhecimentos de Orientação a Objetos e boas práticas de desenvolvimento full-stack.
 
+## 🎥 Apresentação
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_HPfYZQFWcE" title="Apresentação Final - INF0257 UFG" frameborder="0" allowfullscreen></iframe>
+
 ## 🧠 Objetivos do Projeto
 
 O sistema simula uma plataforma acadêmica universitária com três perfis de usuários:
