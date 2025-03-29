@@ -1,12 +1,11 @@
-# Etapa 1: Build da aplicação Angular
-FROM node:18 AS build
+FROM node:18
 
 WORKDIR /app
-COPY . .
-RUN npm install
-RUN npm run build -- --configuration production
 
-# Etapa 2: Servir a aplicação com NGINX
-FROM nginx:alpine
-COPY --from=build /app/dist/uniesquina-frontend/ /usr/share/nginx/html
-EXPOSE 80
+COPY . .
+
+RUN npm install -g @angular/cli && npm install
+
+EXPOSE 4200
+
+CMD ["ng", "serve", "--host", "0.0.0.0", "--port", "4200"]

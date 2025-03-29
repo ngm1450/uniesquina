@@ -1,0 +1,51 @@
+# ===== BACKEND (Java + Maven) =====
+uniesquina-backend/target/
+uniesquina-backend/.idea/
+uniesquina-backend/.mvn/
+uniesquina-backend/mvnw
+uniesquina-backend/mvnw.cmd
+uniesquina-backend/*.iml
+
+# Logs
+*.log
+
+# IDEs
+*.iml
+.idea/
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Compiled class files
+*.class
+
+# Maven
+log/
+dependency-reduced-pom.xml
+
+# ===== FRONTEND (Angular) =====
+uniesquina-frontend/node_modules/
+uniesquina-frontend/dist/
+uniesquina-frontend/.angular/
+uniesquina-frontend/.idea/
+uniesquina-frontend/*.iml
+
+# Angular environment files (caso você tenha um `environment.prod.ts` com dados sensíveis)
+# uniesquina-frontend/src/environments/environment*.ts
+
+# ===== DOCKER (Volumes e artefatos locais) =====
+docker-compose.override.yml
+*.local.yml
+
+# ===== GLOBAL =====
+*.env
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# ===== VSCode (caso use) =====
+.vscode/

@@ -20,7 +20,28 @@ services:
       dockerfile: Dockerfile
     container_name: uniesquina-frontend
     ports:
-      - "4200:80"
+      - "4200:4200"
+    volumes:
+      - ./uniesquina-frontend:/app
+      - /app/node_modules
+    depends_on:
+      - db
+
+
+  backend:
+    build:
+      context: ./uniesquina-backend
+      dockerfile: Dockerfile
+    container_name: uniesquina-backend
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./uniesquina-backend:/app
+      - /app/target
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/uniesquina_db
+      - SPRING_DATASOURCE_USERNAME=uniesquina
+      - SPRING_DATASOURCE_PASSWORD=uniesquina123
     depends_on:
       - db
 
