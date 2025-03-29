@@ -1,6 +1,6 @@
 # 🎓 Uniesquina
 
-Projeto final da disciplina **INF0257 - Introdução à Programação**, desenvolvido durante o programa de **Residência em TI do TJGO/UFG** com o objetivo de consolidar conhecimentos de **Orientação a Objetos** e boas práticas de desenvolvimento **full-stack**.
+Projeto final da disciplina **INF0257 - Introdução à Programação**, desenvolvido durante o programa de Residência em TI do TJGO/UFG com o objetivo de consolidar conhecimentos de Orientação a Objetos e boas práticas de desenvolvimento full-stack.
 
 ## 🧠 Objetivos do Projeto
 
