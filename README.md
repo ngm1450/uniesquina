@@ -1,14 +1,14 @@
-# 🎓 Uniesquina
+# Uniesquina
 
 Projeto final da disciplina **INF0257 - Introdução à Programação**, desenvolvido durante o programa de Residência em TI do TJGO/UFG com o objetivo de consolidar conhecimentos de Orientação a Objetos e boas práticas de desenvolvimento full-stack.
 
-## 🎥 Apresentação
+## Apresentação
 
 <a href="https://www.youtube.com/watch?v=_HPfYZQFWcE" target="_blank">
   <img src="https://img.shields.io/badge/YouTube-Apresentação-red?logo=youtube" alt="Assista no YouTube">
 </a>
 
-## 🧠 Objetivos do Projeto
+## Objetivos do Projeto
 
 O sistema simula uma plataforma acadêmica universitária com três perfis de usuários:
 
@@ -24,13 +24,13 @@ A proposta é aplicar de forma prática os 4 pilares da Orientação a Objetos:
 
 Além disso, foram incorporados conceitos de *Design Patterns* como *Strategy* e *Repository Pattern*, bem como práticas modernas de containerização com Docker.
 
-## 🗂️ Modelagem do Banco de Dados
+## Modelagem do Banco de Dados
 
 Abaixo, a modelagem atual do banco de dados utilizada no projeto:
 
 ![Modelagem do banco de dados](uniesquina_db.png)
 
-## 💻 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Backend
 - Java 21
@@ -50,7 +50,7 @@ Abaixo, a modelagem atual do banco de dados utilizada no projeto:
 - Volumes persistentes (PostgreSQL)
 - Build e deploy multi-stage (frontend)
 
-## 🚀 Como Executar Localmente
+## Como Executar Localmente
 
 ### Pré-requisitos
 - Docker
